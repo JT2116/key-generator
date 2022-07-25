@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.botones input {
+    padding: 0.5rem;
+    margin: 9rem auto;
+    display: block;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 1.3rem;
+    width: 95%;
+    transition: all 0.3s ease;
+    border: thin solid;
+    border-radius: 10px;
+}
+
+.botones input:hover {
+    /* font-weight: bold; */
+    color: black;
+    background-color: white;
+}
+
+#clave {
+    padding: 6rem;
+    margin: 5rem auto;
+}
+
+.atras {
+    padding: 0.5rem;
+    margin: 9rem auto;
+    display: block;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 1.3rem;
+    width: 50%;
+    transition: all 0.3s ease;
+    border: thin solid;
+    border-radius: 10px;
+}
+
+.atras:hover {
+    color: black;
+    background-color: white;
+}
+
+.none {
+    display: none;
+}
+
+.clave.panel h1 {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: white;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+}
+  
+@keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+}
+
+
