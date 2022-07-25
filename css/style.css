@@ -63,7 +63,6 @@ html {
     display: inline-block;
     font-size: 40px;
     color: white;
-    text-transform: uppercase;
     animation: flip 2s infinite;
     animation-delay: calc(.2s * var(--i))
 }
